@@ -1,0 +1,28 @@
+package homework20210121;
+
+import java.io.IOException;
+import java.util.StringTokenizer;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class HadoopMain1Mapper extends Mapper<LongWritable, Text, Text, IntWritable> {
+	
+	private final static IntWritable one = new IntWritable(1);
+	private Text word = new Text();
+	@Override
+	public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException{
+		StringTokenizer itr = new StringTokenizer(value.toString());
+		while(itr.hasMoreElements()){
+			word.set(itr.nextToken());
+			String nameFromWord = word.toString().split(",")[0];
+			int scoreFromWord = Integer.parseInt(word.toString().split(",")[1]);
+			Text nameValue = new Text();
+			IntWritable scoreValue = new IntWritable(scoreFromWord);
+			nameValue.set(nameFromWord);
+			context.write(nameValue, scoreValue);
+		}
+	}
+}
