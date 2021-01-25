@@ -1,0 +1,54 @@
+package homework20210125.data;
+
+import java.util.List;
+
+import org.apache.hadoop.io.Text;
+
+public class Train {
+	private String date;
+	private String lane;
+	private String station;
+	private List<Integer> onboard;
+	private List<Integer> outboard;
+	
+	public Train(Text text) {
+		try {
+			String[] columns = text.toString().split(",");
+			date = columns[0];
+			lane = columns[1];
+			station = columns[2];
+			for(int i = 3; i < columns.length; i++) {
+				if(i == columns.length) {
+					break;
+				}
+				if(i%2 == 0) {
+					outboard.add(Integer.parseInt(columns[i]));
+				}else {
+					onboard.add(Integer.parseInt(columns[i]));
+				}
+			}
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public int getDate() {
+		return date;
+	}
+
+	public String getLane() {
+		return lane;
+	}
+
+	public String getStation() {
+		return station;
+	}
+
+	public List<Integer> getOnboard() {
+		return onboard;
+	}
+
+	public List<Integer> getOutboard() {
+		return outboard;
+	}
+}

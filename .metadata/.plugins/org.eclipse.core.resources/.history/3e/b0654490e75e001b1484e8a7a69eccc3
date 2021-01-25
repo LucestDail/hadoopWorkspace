@@ -1,0 +1,42 @@
+package homework20210125.data;
+
+import org.apache.hadoop.io.Text;
+
+public class Train {
+	private int date;
+	private String Station;
+	private int onboard;
+	private int outboard;
+	
+	public Train(Text text) {
+		
+	}
+	
+	public int getDate() {
+		return date;
+	}
+	public void setDate(int date) {
+		this.date = date;
+	}
+	public String getStation() {
+		return Station;
+	}
+	public void setStation(String station) {
+		Station = station;
+	}
+	public int getOnboard() {
+		return onboard;
+	}
+	public void setOnboard(int onboard) {
+		this.onboard = onboard;
+	}
+	public int getOutboard() {
+		return outboard;
+	}
+	public void setOutboard(int outboard) {
+		this.outboard = outboard;
+	}
+
+	
+	
+}

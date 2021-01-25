@@ -1,0 +1,43 @@
+AA_departure_delay		83307
+AA_departure_early		33023
+AA_departure_schld		46835
+AS_departure_delay		7403
+AS_departure_early		1620
+AS_departure_schld		12168
+CO_departure_delay		47582
+CO_departure_early		19281
+CO_departure_schld		53631
+DL_departure_delay		74475
+DL_departure_early		3377
+DL_departure_schld		105904
+EA_departure_delay		27051
+EA_departure_early		766
+EA_departure_schld		78505
+HP_departure_delay		16809
+HP_departure_early		152
+HP_departure_schld		27902
+NW_departure_delay		36531
+NW_departure_early		7571
+NW_departure_schld		62584
+PA (1)_departure_delay		3631
+PA (1)_departure_early		1542
+PA (1)_departure_schld		11413
+PI_departure_delay		73065
+PI_departure_early		25115
+PI_departure_schld		17073
+PS_departure_delay		25600
+PS_departure_early		8290
+PS_departure_schld		6937
+TW_departure_delay		30495
+TW_departure_early		12482
+TW_departure_schld		25430
+UA_departure_delay		65269
+UA_departure_early		66825
+UA_departure_schld		17094
+US_departure_delay		55386
+US_departure_early		19835
+US_departure_schld		18838
+WN_departure_delay		25040
+WN_departure_early		13
+WN_departure_schld		36291
+null_departure_schld		1

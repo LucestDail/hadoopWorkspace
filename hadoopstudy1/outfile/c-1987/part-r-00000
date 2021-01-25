@@ -1,0 +1,28 @@
+AA_arr_delay		83421
+AA_dep_delay		83307
+AS_arr_delay		15316
+AS_dep_delay		7403
+CO_arr_delay		62300
+CO_dep_delay		47582
+DL_arr_delay		142189
+DL_dep_delay		74475
+EA_arr_delay		60018
+EA_dep_delay		27051
+HP_arr_delay		32585
+HP_dep_delay		16809
+NW_arr_delay		74688
+NW_dep_delay		36531
+PA (1)_arr_delay		9264
+PA (1)_dep_delay		3631
+PI_arr_delay		80570
+PI_dep_delay		73065
+PS_arr_delay		31140
+PS_dep_delay		25600
+TW_arr_delay		42510
+TW_dep_delay		30495
+UA_arr_delay		81104
+UA_dep_delay		65269
+US_arr_delay		63959
+US_dep_delay		55386
+WN_arr_delay		29129
+WN_dep_delay		25040

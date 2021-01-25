@@ -59,6 +59,9 @@ public class HadoopMain2 {
 			String line = value.toString();
 			StringTokenizer itr = new StringTokenizer(line);
 			while (itr.hasMoreElements()) {
+				if(key.get() == 0) {
+					return;
+				}
 				
 				word.set(itr.nextToken());
 				

@@ -1,0 +1,57 @@
+AA_arrive_delay		83421
+AA_arrive_early		72992
+AA_arrive_schld		6196
+AA_none_avail		2512
+AS_arrive_delay		15316
+AS_arrive_early		4560
+AS_arrive_schld		1265
+AS_none_avail		265
+CO_arrive_delay		62300
+CO_arrive_early		53100
+CO_arrive_schld		4578
+CO_none_avail		3024
+DL_arrive_delay		142189
+DL_arrive_early		33797
+DL_arrive_schld		7653
+DL_none_avail		2174
+EA_arrive_delay		60018
+EA_arrive_early		39339
+EA_arrive_schld		6207
+EA_none_avail		3212
+HP_arrive_delay		32585
+HP_arrive_early		9891
+HP_arrive_schld		2305
+HP_none_avail		618
+NW_arrive_delay		74688
+NW_arrive_early		25172
+NW_arrive_schld		6228
+NW_none_avail		2185
+PA (1)_arrive_delay		9264
+PA (1)_arrive_early		6391
+PA (1)_arrive_schld		890
+PA (1)_none_avail		240
+PI_arrive_delay		80570
+PI_arrive_early		29649
+PI_arrive_schld		4891
+PI_none_avail		1372
+PS_arrive_delay		31140
+PS_arrive_early		7845
+PS_arrive_schld		1727
+PS_none_avail		994
+TW_arrive_delay		42510
+TW_arrive_early		22493
+TW_arrive_schld		3168
+TW_none_avail		1479
+UA_arrive_delay		81104
+UA_arrive_early		62519
+UA_arrive_schld		5122
+UA_none_avail		3879
+US_arrive_delay		63959
+US_arrive_early		25487
+US_arrive_schld		4453
+US_none_avail		915
+WN_arrive_delay		29129
+WN_arrive_early		26462
+WN_arrive_schld		5753
+WN_none_avail		631
+null_arrive_schld		1
