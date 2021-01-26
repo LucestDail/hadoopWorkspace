@@ -25,12 +25,14 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="goodee.hadoopweb"/>
 			<item value="goodee.hadoopstudy1"/>
 		</list>
 		<list key="groupId">
 			<item value="goodee"/>
 		</list>
 		<list key="artifactId">
+			<item value="hadoopweb"/>
 			<item value="hadoopstudy1"/>
 		</list>
 		<list key="projectNameTemplate">
