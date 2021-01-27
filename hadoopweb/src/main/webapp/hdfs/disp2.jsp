@@ -20,7 +20,7 @@
 	Configuration conf = new Configuration();
 	FileSystem fs = FileSystem.get(conf); 
 %>
-<h2> 하둡을 이용한 파일 목록 조회</h2>
+<h2> 하둡을 이용한 파일 목록 조회 : <%=target%></h2>
 <%
 	RemoteIterator<LocatedFileStatus> flist = fs.listLocatedStatus(path);
 	while(flist.hasNext()){
@@ -29,7 +29,7 @@
 			%>
 			<a href="disp2.jsp?path=<%=lfs.getPath().getName()%>&&root=<%=target%>">d--<%=lfs.getPath().getName()%></a><br>
 			<%}else{%>
-			<a href="disp3.jsp?file=<%=lfs.getPath().getName()%>&&path=<%=root%>">---<%=lfs.getPath().getName()%></a><br>
+			<a href="disp3.jsp?file=<%=lfs.getPath().getName()%>&&root=<%=target%>">---<%=lfs.getPath().getName()%></a><br>
 			<%}
 		} %>
 </body>

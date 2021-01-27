@@ -29,7 +29,7 @@
 			%>
 			<a href="disp2.jsp?path=<%=lfs.getPath().getName()%>&&root=<%=root%>">d--<%=lfs.getPath().getName()%></a><br>
 			<%}else{%>
-			<a href="disp2.jsp?file=<%=lfs.getPath().getName()%>&&path=<%=root%>">---<%=lfs.getPath().getName()%></a><br>
+			<a href="disp3.jsp?file=<%=lfs.getPath().getName()%>&&root=<%=root%>">---<%=lfs.getPath().getName()%></a><br>
 			<%}
 		} %>
 </body>
