@@ -18,6 +18,20 @@
   	<servlet-name>CarrDelayServlet</servlet-name>
   	<servlet-class>dataexpo.servlet.CarrDelayServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>MonMultiServlet</display-name>
+  	<servlet-name>MonMultiServlet</servlet-name>
+  	<servlet-class>dataexpo.servlet.MonMultiServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>CarrMultiServlet</display-name>
+  	<servlet-name>CarrMultiServlet</servlet-name>
+  	<servlet-class>dataexpo.servlet.CarrMultiServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>MonDelayCntServlet</servlet-name>
   	<url-pattern>/MonDelayCntServlet</url-pattern>
@@ -25,6 +39,14 @@
   <servlet-mapping>
   	<servlet-name>CarrDelayServlet</servlet-name>
   	<url-pattern>/CarrDelayServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MonMultiServlet</servlet-name>
+  	<url-pattern>/MonMultiServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CarrMultiServlet</servlet-name>
+  	<url-pattern>/CarrMultiServlet</url-pattern>
   </servlet-mapping>
   	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
