@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="jdk.internal.org.jline.utils.InputStreamReader"/>
-    <fullyQualifiedTypeName name="java.nio.file.FileSystem"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="org.apache.hadoop.fs.FSDataOutputStream"/>
-    <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Mapper"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
     <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Reducer"/>
@@ -33,8 +28,6 @@
     <fullyQualifiedTypeName name="dataexpo.mapreduce.DelayCounters"/>
     <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.output.MultipleOutputs"/>
     <fullyQualifiedTypeName name="homework20210125.data.Train"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="org.apache.hadoop.io.WritableComparable"/>
     <fullyQualifiedTypeName name="org.apache.hadoop.io.WritableUtils"/>
     <fullyQualifiedTypeName name="dataexpo.DateKey"/>
@@ -42,17 +35,12 @@
     <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Job"/>
     <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.input.TextInputFormat"/>
     <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.output.TextOutputFormat"/>
-    <fullyQualifiedTypeName name="org.apache.hadoop.io.Text"/>
-    <fullyQualifiedTypeName name="org.apache.hadoop.io.IntWritable"/>
     <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.input.FileInputFormat"/>
     <fullyQualifiedTypeName name="org.apache.hadoop.fs.Path"/>
     <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.output.FileOutputFormat"/>
     <fullyQualifiedTypeName name="java.nio.file.FileAlreadyExistsException"/>
-    <fullyQualifiedTypeName name="org.apache.hadoop.fs.FileSystem"/>
-    <fullyQualifiedTypeName name="java.util.TreeMap"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
     <fullyQualifiedTypeName name="org.apache.hadoop.fs.FileAlreadyExistsException"/>
     <fullyQualifiedTypeName name="java.nio.file.Path"/>
@@ -60,4 +48,16 @@
     <fullyQualifiedTypeName name="dataexpo.mapper.CarrDepartureDelayMapper"/>
     <fullyQualifiedTypeName name="dataexpo.reducer.CarrDelayCountReducer"/>
     <fullyQualifiedTypeName name="dataexpo.reducer.CarrDelayReducer"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.apache.hadoop.fs.FileSystem"/>
+    <fullyQualifiedTypeName name="java.util.TreeMap"/>
+    <fullyQualifiedTypeName name="org.apache.hadoop.io.IntWritable"/>
+    <fullyQualifiedTypeName name="osh.mapper.OshMapper"/>
+    <fullyQualifiedTypeName name="osh.reducer.OshReducer"/>
+    <fullyQualifiedTypeName name="osh.domain.OshCctv"/>
+    <fullyQualifiedTypeName name="org.apache.hadoop.io.Text"/>
+    <fullyQualifiedTypeName name="org.apache.commons.lang3.StringUtils"/>
 </qualifiedTypeNameHistroy>

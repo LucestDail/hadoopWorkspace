@@ -8,6 +8,7 @@ import java.util.TreeMap;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -29,7 +30,7 @@ import dataexpo.mapper.CarrMultiDelayMapper;
 import dataexpo.mapper.MultiDelayMapper;
 import dataexpo.reducer.CarrMultiDelayReducer;
 import dataexpo.reducer.MultiDelayReducer;
-
+@WebServlet("/CarrMultiServlet") 
 public class CarrMultiServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
     public CarrMultiServlet() {

@@ -71,6 +71,14 @@ public class Airline {
 	public String getUniqueCarrier() {
 		return uniqueCarrier;
 	}
+	@Override
+	public String toString() {
+		return "Airline [year=" + year + ", month=" + month + ", arriveDelayTime=" + arriveDelayTime
+				+ ", departureDelayTime=" + departureDelayTime + ", distance=" + distance + ", cancel=" + cancel
+				+ ", arriveDelayAvailable=" + arriveDelayAvailable + ", departureDelayAvailable="
+				+ departureDelayAvailable + ", distanceAvailable=" + distanceAvailable + ", uniqueCarrier="
+				+ uniqueCarrier + "]";
+	}
 	
 	
 }

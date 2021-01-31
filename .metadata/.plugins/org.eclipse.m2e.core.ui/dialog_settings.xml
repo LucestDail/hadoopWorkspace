@@ -25,13 +25,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="osh.osh"/>
 			<item value="goodee.hadoopweb"/>
 			<item value="goodee.hadoopstudy1"/>
 		</list>
 		<list key="groupId">
+			<item value="osh"/>
 			<item value="goodee"/>
 		</list>
 		<list key="artifactId">
+			<item value="osh"/>
 			<item value="hadoopweb"/>
 			<item value="hadoopstudy1"/>
 		</list>
